@@ -19,3 +19,8 @@ aws, cafe24 >
 3. webserver -> frontend -> backend > spring
 4. (webserver, frontend, backend) >> image >> container >> virtual network connect > docker network or kube service
 5. traffic >> network >> Orchestration > docker swarm or kube
+
+---
+## mysql master-slave 구축하기
+1. docker pull mysql:latest >> container 3개 실행 > 3306, 3307, 3308
+2. 
